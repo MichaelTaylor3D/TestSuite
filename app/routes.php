@@ -11,7 +11,11 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+//Home Test Page
+Route::get('/', 'ProjectsController@index');
+
+//Edit Project Configurations
+Route::get('project/{id}', array(
+    'as' => 'editproject',
+    'uses' => 'ProjectsController@edit'
+));

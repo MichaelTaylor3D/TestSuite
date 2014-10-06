@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'testsuite',
-			'username'  => 'root',
-			'password'  => '',
+			'host'      => 'planitapps.com',
+			'database'  => 'testsuite_dev',
+			'username'  => 'mysql1066',
+			'password'  => 'scaling*spored8262',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
